@@ -42,9 +42,18 @@ body {
 }
 
 .container h1 {
-    padding: 15px;
+    padding: 5px;
     font-family: 'Pixel';
     text-align: center;
+    color: white;
+}
+
+.container .papan {
+    padding: 1px;
+    font-family: 'Pixel';
+    font-size: 3px;
+    text-align: center;
+    color: white;
 }
 
 .main {
@@ -102,11 +111,12 @@ span img {
 }
 
 .kode {
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: fixed;
     font-family: 'Pixel';
+    color: aliceblue;
 }
 
 .Spin-btn {
@@ -133,12 +143,11 @@ span img {
 .elainapic {
     width: 64px;
     height: 64px;
-    background-image: url('Assets/Elaina.jpg');
+    background-image: url('Assets/Elaina1.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 5px;
     border: 1px solid black;
-    image-rendering: pixelated;
 
     margin-left: 80%;
     margin-top: -17%;

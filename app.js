@@ -50,13 +50,19 @@ function luckySpin() {
 
     document.getElementById('kode').innerHTML = data
 
-    if ( data > 1000 && data < 2000) {
-        COINS += 10
+    if ( data > 1000 && data < 1200) {
+        COINS += 1
         POPUP.style.display='flex'
-        TIPEPOPUP.innerHTML='YOUR BIG COIN 10+'
+        TIPEPOPUP.innerHTML='YOUR SMALL COIN 1+'
         PGone()
     }
 
+    if ( data > 100 && data < 300) {
+        COINS += 20
+        POPUP.style.display='flex'
+        TIPEPOPUP.innerHTML='YOUR BIG COIN 20+'
+        PGone()
+    }
 }
 
 //SFX SOUNDTRACK BG MUSIC
